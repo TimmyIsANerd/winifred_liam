@@ -1,12 +1,10 @@
-const baseUrl = "localhost:3000"
-
 const data = [
   {
     id: 1,
     image: "https://img.icons8.com/ios/50/000000/document-writer.png",
     title: "Ghost Writing",
     desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-    url: `${baseUrl}/#portfolio`,
+    url: `#portfolio`,
   },
   {
     id: 2,
@@ -41,7 +39,7 @@ const data = [
     image: "https://img.icons8.com/ios/50/000000/technical-support.png",
     title: "Virtual Assistant",
     desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-    url: `${baseUrl}/#portfolio`,
+    url: `#portfolio`,
   },
 ];
 export default data;
