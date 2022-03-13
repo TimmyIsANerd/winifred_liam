@@ -1,4 +1,5 @@
 import React from "react"
+import NavBar from "../component/Nav/Navbar"
 import Header from "../component/Head/Header"
 import Features from "../component/Features/Features"
 import Home from "../component/Hero/Home"
@@ -13,7 +14,7 @@ import Footer from "../component/Footer"
 const LandingPage = () => {
   return (
     <>
-      {/* <Header /> */}
+      <NavBar />
       <Home />
       <Features />
       <Portfolio />
