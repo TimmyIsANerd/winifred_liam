@@ -145,3 +145,13 @@ footer p {
 .winnie_png{
   filter: drop-shadow(10px 10px 6px #333)
 }
+/* Mod Style */
+.nav-item{
+  margin:0 1rem;
+  font-size:1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color:#5480f1 !important;
+}
