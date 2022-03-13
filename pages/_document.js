@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="author" content="Adefeyitimi Adeyeloja" />
         <meta
