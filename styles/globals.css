@@ -61,7 +61,7 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background: #9d5047;
+  background: #5480f1;
   color: white;
   transform: translateY(-10px);
 }
@@ -84,7 +84,7 @@ button {
   margin: 50px 0 50px 0;
 }
 .heading h4 {
-  color: #9d5047;
+  color: #5480f1;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -114,7 +114,7 @@ p {
   text-align: center;
 }
 .primary_color {
-  color: #9d5047;
+  color: #5480f1;
 }
 textarea,
 input {
