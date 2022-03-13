@@ -6,8 +6,8 @@ const Card = (props) => {
       <div className='box btn_shadow'>
         <img src={props.image} alt='' />
         <h2>{props.title}</h2>
-        <p>{props.desc}</p>
-        <a href='/'>
+        <p className="descriptionText">{props.desc}</p>
+        <a href={props.url}>
           <i className='fas fa-arrow-right'></i>
         </a>
       </div>
