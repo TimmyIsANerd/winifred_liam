@@ -9,7 +9,7 @@ const Blog = () => {
         <div className="container top">
           <div className="col-12">
             <div className="heading text-center">
-              <h4>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h4>
+              <h4>VISIT MY BLOG AND SHARE A FEEDBACK</h4>
               <h1>My Blog</h1>
             </div>
           </div>

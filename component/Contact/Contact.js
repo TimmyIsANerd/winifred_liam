@@ -45,7 +45,7 @@ const Contact = () => {
 
             <div className="container">
               <div className="row">
-                <div className="col-6">
+                <div className="col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-12">
                   <div className="box box_shodow p-2">
                     <div className="details">
                       <h1>Winifred Liam</h1>
@@ -99,7 +99,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="col-6">
+                <div className="col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-12">
                   <div className="box_shodow p-2">
                     <form onSubmit={formSubmit}>
                       <div className="col">
