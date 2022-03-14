@@ -14,7 +14,7 @@ const Card = (props) => {
   // }
   return (
     <>
-      <div className='box btn_shadow '>
+      <div className='box btn_shadow col-md-4 col-xl-4 m-2 col-lg-4'>
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
@@ -26,7 +26,7 @@ const Card = (props) => {
         </div>
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title_one}</h2>
-          <a href='#popup' className='arrow' onClick={toggleModal}>
+          <a href={props.url} className='arrow' onClick={toggleModal}>
             <i className='fas fa-arrow-right'></i>
           </a>
         </div>

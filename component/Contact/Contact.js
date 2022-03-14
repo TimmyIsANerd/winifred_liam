@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import contact1 from "./contact1.png";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -51,44 +51,49 @@ const Contact = () => {
                       <h1>Winifred Liam</h1>
                       {/* <p>Chief Operating Officer</p> */}
                       <p>
-                        I am available for freelance work. Connect with me via
-                        and call in to my account.
+                        I am available for Freelance Work. Connect with Me via Whatsapp or send me an Email.
                       </p>{" "}
                       <br />
-                      <p>Phone: +01234567890</p>
-                      <p>Email: admin@example.com</p> <br />
-                      <span>FIND WITH ME</span>
+                      <p>
+                        Phone:{" "}
+                        <a href="tel:+2347065481408">+234 706 548 1408</a>
+                      </p>
+                      <p>Email: <a href="mailto:msooterwinnie@gmail.com">msooterwinnie@gmail.com</a></p> <br />
+                      <span>FIND ME WITH</span>
                       <div className="button button_container">
-                      <a
-                href="https://www.facebook.com/winnifred.liam"
-                target="_blank"
-                className="btn_shadown"
-              >
-                <button className="btn_shadow">
-                  <i className="fab fa-facebook-f"></i>
-                </button>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/winifred-liam/"
-                target="_blank"
-              >
-                <button className="btn_shadow">
-                  <i className="fab fa-instagram"></i>
-                </button>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/winifred-liam/"
-                target="_blank"
-              >
-                <button className="btn_shadow">
-                  <i className="fab fa-linkedin-in"></i>
-                </button>
-              </a>
-              <a href="https://medium.com/@winifredliam" target="_blank">
-                <button className="btn_shadow">
-                  <i className="fab fa-medium"></i>
-                </button>
-              </a>
+                        <a
+                          href="https://www.facebook.com/winnifred.liam"
+                          target="_blank"
+                          className="btn_shadown"
+                        >
+                          <button className="btn_shadow">
+                            <i className="fab fa-facebook-f"></i>
+                          </button>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/winifred-liam/"
+                          target="_blank"
+                        >
+                          <button className="btn_shadow">
+                            <i className="fab fa-instagram"></i>
+                          </button>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/winifred-liam/"
+                          target="_blank"
+                        >
+                          <button className="btn_shadow">
+                            <i className="fab fa-linkedin-in"></i>
+                          </button>
+                        </a>
+                        <a
+                          href="https://medium.com/@winifredliam"
+                          target="_blank"
+                        >
+                          <button className="btn_shadow">
+                            <i className="fab fa-medium"></i>
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>

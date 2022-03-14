@@ -3,7 +3,7 @@ import React from "react"
 const Card = (props) => {
   return (
     <>
-      <div className='box btn_shadow'>
+      <div className='box my-3 btn_shadow'>
         <div className='title_content d_flex'>
           <div className='title'>
             <h2>{props.title}</h2>
