@@ -11,6 +11,7 @@ const Resume = () => {
             <div className="heading text-center">
               <h4>7+ YEARS OF EXPERIENCE</h4>
               <h1>My Resume</h1>
+              <a href="../component/Portfolio/Portfolio/01_WINIFRED_MSOOTER_LIAM_CV.pdf" target="_blank" class="btn btn-sm btn_shadow">Download CV </a> 
             </div>
 
             <div className="container">
