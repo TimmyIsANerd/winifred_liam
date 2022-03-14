@@ -14,7 +14,7 @@ const Card = (props) => {
   // }
   return (
     <>
-      <div className='box btn_shadow col-md-4 col-xl-4 m-2 col-lg-4'>
+      <div className={`box btn_shadow col-md-4 col-xl-4 m-2 col-lg-4 ${props.color}`}>
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>

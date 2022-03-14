@@ -12,6 +12,7 @@ const data = [
     title: "Upwork Freelancing",
     desc: " It uses a dictionary of over 200 Latin words, combined witha handful of model sentence.",
     url: ``,
+    color:'card_blue'
   },
   {
     id: 3,
@@ -19,6 +20,7 @@ const data = [
     title: "IT Support Specialist",
     desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     url: "",
+    color:'card_blue'
   },
   {
     id: 4,
@@ -40,6 +42,7 @@ const data = [
     title: "Virtual Assistant",
     desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
     url: `#portfolio`,
+    color:'card_blue'
   },
 ];
 export default data;

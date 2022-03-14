@@ -160,3 +160,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+/* Card Color */
+.card_blue{
+  background: #5480f1;
+  color: white;
+}
+.text-blue{
+  color:#5480f1;
+}

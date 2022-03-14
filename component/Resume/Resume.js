@@ -17,11 +17,11 @@ const Resume = () => {
               <div className="row">
                 <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12 col-xs-12">
                   <div className="heading">
-                    <h4>2007-2010</h4>
+                    <h4>2009-2018</h4>
                     <h1>Education Quality</h1>
                   </div>
 
-                  <div className="col">
+                  <div className="col-12">
                     {ResumeApi.map((val, id) => {
                       if (val.category === "education") {
                         return (
@@ -53,7 +53,7 @@ const Resume = () => {
                 </div>
                 <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12 col-xs-12">
                   <div className="heading">
-                    <h4>2007-2010</h4>
+                    <h4>2018-Present</h4>
                     <h1>Job Experience</h1>
                   </div>
 

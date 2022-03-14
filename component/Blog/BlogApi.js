@@ -9,7 +9,8 @@ const BlogApi = [
     desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
     title_three: "Mauris tempor, orci id pellentesque.",
     desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
-    url:"https://medium.com/@winifredliam/whats-your-love-language-3fb17bad7408"
+    url:"https://medium.com/@winifredliam/whats-your-love-language-3fb17bad7408",
+    color:'card_blue'
   },
   {
     id: 2,
@@ -39,7 +40,8 @@ const BlogApi = [
     id:4,
     date:"February 6, 2022",
     title_one:"PRINCESS WIN",
-    url:"https://peacheshouse.wordpress.com/2022/02/06/princess-win/"
+    url:"https://peacheshouse.wordpress.com/2022/02/06/princess-win/",
+    color:'card_blue'
   }
 ]
 export default BlogApi

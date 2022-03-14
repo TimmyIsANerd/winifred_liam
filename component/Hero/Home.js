@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-// import Image from "next/image";
-import winifred from "./winifred_liam.png";
 
 const Home = () => {
   return (
@@ -10,7 +8,7 @@ const Home = () => {
       <div className="row">
         <div className="col-md-6 col-xl-6 col-lg-6">
           <h3>WELCOME TO MY WORLD</h3>
-          <h1>
+          <h1 className="text-blue">
             Hi, I’m <span>Winifred Liam</span>
           </h1>
           <h2>

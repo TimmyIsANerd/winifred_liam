@@ -28,6 +28,7 @@ const Blog = () => {
                   desc_two={value.desc_two}
                   desc_three={value.desc_three}
                   url={value.url}
+                  color={value.color}
                 />
               );
             })}
