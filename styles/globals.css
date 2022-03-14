@@ -155,3 +155,8 @@ footer p {
 .nav-link:hover{
   color:#5480f1 !important;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

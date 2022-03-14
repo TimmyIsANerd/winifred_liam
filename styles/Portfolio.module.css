@@ -1,9 +1,9 @@
 .Portfolio {
-  position: relative;
+  /* position: relative; */
 }
 .Portfolio .box {
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
 }
 .Portfolio .box:hover {
   background: none;
