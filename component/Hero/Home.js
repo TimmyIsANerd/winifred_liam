@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <div className="container hero mt-5">
+    <div className="container hero my-5">
       <div className="row">
         <div className="col-md-6 col-xl-6 col-lg-6">
           <h3>WELCOME TO MY WORLD</h3>

@@ -9,13 +9,13 @@ const Portfolio = () => {
         <div className="row">
           <div className="col-md-12 col-lg-12 col-xl-12">
             <div className="heading text-center">
-              <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
+              <h4>TAKE A LOOK AT MY PORTFOLIO</h4>
               <h1>My Portfolio</h1>
             </div>
           </div>
           <div className="col-md-12">
             <div className="row justify-content-center">
-              {Portfolio_data.map((value, index) => {
+              {/* {Portfolio_data.map((value, index) => {
                 return (
                   <Card
                     key={index}
@@ -25,7 +25,7 @@ const Portfolio = () => {
                     title={value.title}
                   />
                 );
-              })}
+              })} */}
             </div>
           </div>
         </div>
