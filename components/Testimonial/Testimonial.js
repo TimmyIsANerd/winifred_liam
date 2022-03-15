@@ -32,12 +32,12 @@ const Testimonial = () => {
               <div style={{ width: 300, height: 300 }} className="btn-shadow d-flex justify-content-center align-items-center flex-column text-center">
                 <p>Winnie is a very hard working individual. I enjoyed working with her and she has a positive attitude and great to deal with.</p>
                 <p className="subtext text-blue text-bold">Leigh </p>
-                <p><span class="text-bold">Upwork</span> 5<span className="fas fa-star"></span></p>
+                <p><span className="text-bold">Upwork</span> 5<span className="fas fa-star"></span></p>
               </div>
               <div style={{ width: 300, height: 300 }} className="btn-shadow d-flex justify-content-center align-items-center flex-column text-center">
                 <p>It was very nice working with Winifred.</p>
                 <p className="subtext text-blue text-bold">Ismail RD </p>
-                <p><span class="text-bold">Upwork</span> 5<span className="fas fa-star"></span></p>
+                <p><span className="text-bold">Upwork</span> 5<span className="fas fa-star"></span></p>
               </div>
             </Carousel>
             <div className="slide">
