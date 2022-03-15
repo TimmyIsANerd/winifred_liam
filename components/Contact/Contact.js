@@ -71,6 +71,7 @@ const Contact = () => {
                           href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf"
                           className="btn btn-sm btn_shadow"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           Download CV{" "}
                         </a>
@@ -81,6 +82,7 @@ const Contact = () => {
                           href="https://www.facebook.com/winnifred.liam"
                           target="_blank"
                           className="btn_shadown"
+                          rel="noreferrer"
                         >
                           <button className="btn_shadow">
                             <i className="fab fa-facebook-f"></i>
@@ -89,6 +91,7 @@ const Contact = () => {
                         <a
                           href="https://www.linkedin.com/in/winifred-liam/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button className="btn_shadow">
                             <i className="fab fa-instagram"></i>
@@ -97,6 +100,7 @@ const Contact = () => {
                         <a
                           href="https://www.linkedin.com/in/winifred-liam/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button className="btn_shadow">
                             <i className="fab fa-linkedin-in"></i>
@@ -105,6 +109,7 @@ const Contact = () => {
                         <a
                           href="https://medium.com/@winifredliam"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <button className="btn_shadow">
                             <i className="fab fa-medium"></i>

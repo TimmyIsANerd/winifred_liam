@@ -39,6 +39,7 @@ const Card = (props) => {
             href={props.downloadLink}
             className="btn btn_download"
             target="_blank"
+            rel="noreferrer"
           >
             Download <span className="fas fa-download"></span>
           </a>

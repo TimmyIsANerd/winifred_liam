@@ -47,6 +47,7 @@ const Home = () => {
                 href="https://www.facebook.com/winnifred.liam"
                 target="_blank"
                 className="btn_shadown"
+                rel="noreferrer"
               >
                 <button className="btn_shadow">
                   <i className="fab fa-facebook-f"></i>
@@ -55,6 +56,7 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/winifred-liam/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn_shadow">
                   <i className="fab fa-instagram"></i>
@@ -63,12 +65,13 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/winifred-liam/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn_shadow">
                   <i className="fab fa-linkedin-in"></i>
                 </button>
               </a>
-              <a href="https://medium.com/@winifredliam" target="_blank">
+              <a href="https://medium.com/@winifredliam" target="_blank" rel="noreferrer">
                 <button className="btn_shadow">
                   <i className="fab fa-medium"></i>
                 </button>

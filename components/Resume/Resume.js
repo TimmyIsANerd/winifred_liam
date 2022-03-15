@@ -12,7 +12,14 @@ const Resume = () => {
             <div className="heading text-center">
               <h4>3+ YEARS OF EXPERIENCE</h4>
               <h1>My Resume</h1>
-              <a href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf" className="btn btn-sm btn_shadow" target="_blank">Download CV </a> 
+              <a
+                href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf"
+                className="btn btn-sm btn_shadow"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download CV{" "}
+              </a>
             </div>
 
             <div className="container">
