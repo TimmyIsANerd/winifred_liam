@@ -55,7 +55,7 @@ const Testimonial = () => {
                 style={{ width: 300, height: 300 }}
                 className="btn-shadow d-flex justify-content-center align-items-center flex-column text-center"
               >
-                <p>It was very nice working with Winifred.</p>
+                <p>It was very nice working with Winifred Liam.</p>
                 <p className="subtext text-blue text-bold">Ismail RD </p>
                 <p>
                   <span className="text-bold">Upwork</span> 5
