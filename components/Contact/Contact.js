@@ -51,14 +51,30 @@ const Contact = () => {
                       <h1>Winifred Liam</h1>
                       {/* <p>Chief Operating Officer</p> */}
                       <p>
-                        I am available for Freelance Work. Connect with Me via Whatsapp or send me an Email.
+                        I am available for Freelance Work. Connect with Me via
+                        Whatsapp or send me an Email.
                       </p>{" "}
                       <br />
                       <p>
                         Phone:{" "}
                         <a href="tel:+2347065481408">+234 706 548 1408</a>
                       </p>
-                      <p>Email: <a href="mailto:msooterwinnie@gmail.com">msooterwinnie@gmail.com</a></p> <br />
+                      <p>
+                        Email:{" "}
+                        <a href="mailto:msooterwinnie@gmail.com">
+                          msooterwinnie@gmail.com
+                        </a>
+                      </p>{" "}
+                      <br />
+                      <div className="my-3">
+                        <a
+                          href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf"
+                          className="btn btn-sm btn_shadow"
+                          target="_blank"
+                        >
+                          Download CV{" "}
+                        </a>
+                      </div>
                       <span>FIND ME ON</span>
                       <div className="button button_container">
                         <a
