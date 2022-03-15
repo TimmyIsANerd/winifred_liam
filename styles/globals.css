@@ -19,12 +19,12 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  row-gap:5px;
+  row-gap: 5px;
 }
-.button_container{
+.button_container {
   display: flex;
   flex-direction: row;
-  column-gap:15px;
+  column-gap: 15px;
 }
 .f_flex {
   display: flex;
@@ -70,6 +70,22 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
+/* Button No Hover */
+.btn_download {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_download {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_download:hover {
+  transform: translateY(-10px);
+}
 .left,
 .right {
   width: 50%;
@@ -96,7 +112,7 @@ h1 {
   color: #3c3e41;
   font-size: 4rem;
 }
-h2>span{
+h2 > span {
   font-size: 2.8rem;
 }
 .grid {
@@ -107,8 +123,8 @@ h2>span{
 p {
   color: #3c3e41;
 }
-.bio{
-  font-size:1.2rem;
+.bio {
+  font-size: 1.2rem;
 }
 .text-center {
   text-align: center;
@@ -142,18 +158,18 @@ footer p {
     width: 100%;
   }
 }
-.winnie_png{
-  filter: drop-shadow(10px 10px 6px #333)
+.winnie_png {
+  filter: drop-shadow(10px 10px 6px #333);
 }
 /* Mod Style */
-.nav-item{
-  margin:0 1rem;
-  font-size:1rem;
+.nav-item {
+  margin: 0 1rem;
+  font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
 }
-.nav-link:hover{
-  color:#5480f1 !important;
+.nav-link:hover {
+  color: #5480f1 !important;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -161,10 +177,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 /* Card Color */
-.card_blue{
+.card_blue {
   background: #5480f1;
   color: white;
 }
-.text-blue{
-  color:#5480f1;
+.text-blue {
+  color: #5480f1;
 }
