@@ -44,5 +44,20 @@ const data = [
     url: `#portfolio`,
     color:'card_blue'
   },
+  {
+    id: 7,
+    image: "https://img.icons8.com/ios/50/000000/technical-support.png",
+    title: "Content Specialist",
+    desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    url: `#portfolio`,
+    color:'card_blue'
+  },
+  {
+    id: 8,
+    image: "https://img.icons8.com/ios/50/000000/technical-support.png",
+    title: "Digital Marketer",
+    desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    url: `#portfolio`,
+  },
 ];
 export default data;
