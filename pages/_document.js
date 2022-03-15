@@ -10,7 +10,7 @@ export default function Document() {
         <meta name="author" content="Adefeyitimi Adeyeloja" />
         <meta
           name="keywords"
-          content="Winifred Liam, Freelance Writer, Best Ghost Writer, 5 Star Freelance Writer, Who is Winifred Liam, Best Amazon Author, Best Bambooks Author"
+          content="Winifred Liam, Freelance Writer, Best Ghost Writer, 5 Star Freelance Writer, Who is Winifred Liam, Best Amazon Author, Best Bambooks Author, Best Ghost Writer, Ghost Writer, Winifred Liam's Portfolio Site, Best Writer Portfolio Site, Best Freelance Writer, Impressive Writing, Impressive Ghost Writing"
         />
         <link
           rel="stylesheet"
