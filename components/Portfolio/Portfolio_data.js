@@ -12,7 +12,7 @@ const Portfolio_data = [
     category: "AUTHORED",
     totalLike: "750",
     title: "Ineffable",
-    image: "./img/Portfolio/ineffable.jpg",
+    image: "./img/Portfolio/INEFFABLE.jpg",
     downloadLink: "/IneffablE.epub"
   },
   {
