@@ -14,11 +14,19 @@ const Resume = () => {
               <h1>My Resume</h1>
               <a
                 href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf"
-                className="btn btn-sm btn_shadow"
+                className="btn btn-sm btn_shadow mx-2"
                 target="_blank"
                 rel="noreferrer"
               >
-                Download CV{" "}
+                Download CV{" "} <span className="fas fa-download"></span>
+              </a>
+              <a
+                href="./Basic IT support Training.pdf"
+                className="btn btn-sm btn_shadow mx-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download Digital Marketing Certificate{" "} <span className="fas fa-download"></span>
               </a>
             </div>
 

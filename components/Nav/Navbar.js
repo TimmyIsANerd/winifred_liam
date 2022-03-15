@@ -41,7 +41,7 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="https://peacheshouse.wordpress.com/" className="nav-link">
+              <a href="https://peacheshouse.wordpress.com/" className="nav-link" target="_blank" rel="noreferrer">
                 Blog
               </a>
             </li>
