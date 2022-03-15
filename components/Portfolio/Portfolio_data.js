@@ -28,8 +28,8 @@ const Portfolio_data = [
     category: "GUIDE",
     totalLike: "360",
     title: "Basic IT Support Guide",
-    image: "./image/portfolio-04.jpg",
-    downloadLink: "/Basic IT support Training"
+    image: "./img/Portfolio/it_support.png",
+    downloadLink: "/Basic IT support Training.pdf"
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const Portfolio_data = [
     category: "ARTICLE",
     totalLike: "690",
     title: "KitoGenic Diet",
-    image: "./image/portfolio-06.jpg",
+    image: "./img/Portfolio/keto.png",
     downloadLink: "/Ketogenic Diet.docx"
   },
 ]
