@@ -14,7 +14,7 @@ const Resume = () => {
               <h1>My Resume</h1>
               <a
                 href="./01_WINIFRED_MSOOTER_LIAM_CV.pdf"
-                className="btn btn-sm btn_shadow mx-2"
+                className="btn btn-sm btn_shadow m-2"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -22,7 +22,7 @@ const Resume = () => {
               </a>
               <a
                 href="./Basic IT support Training.pdf"
-                className="btn btn-sm btn_shadow mx-2"
+                className="btn btn-sm btn_shadow m-2"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -5,7 +5,7 @@ const Portfolio_data = [
     totalLike: "600",
     title: "Woman Thou Art Worthy",
     image: "./img/Portfolio/woman thou art worthy.png",
-    downloadLink: "",
+    downloadLink: "https://www.amazon.com/Woman-thou-worthy-Winifred-Liam-ebook/dp/B094DZ9DRC/ref=sr_1_1?crid=3T8F1X6VHIQ2X&keywords=Woman+thou+art+worthy&qid=1647357828&s=digital-text&sprefix=woman+thou+art+worthy%2Cdigital-text%2C253&sr=1-1",
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ const Portfolio_data = [
     totalLike: "600",
     title: "Deck The Halls ",
     image: "./img/Portfolio/deckthehalls.png",
-    downloadLink: "",
+    downloadLink: "https://www.amazon.com/Deck-Halls-Naija-Christmas-Anthology-ebook/dp/B09P17NZ42",
   },
   {
     id: 2,
