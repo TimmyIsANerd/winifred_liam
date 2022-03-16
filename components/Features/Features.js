@@ -2,20 +2,22 @@ import React from "react";
 import data from "./Features-Api";
 import Card from "./Card";
 import Image from "next/image";
-import winnie from "./Winnie.png"
+import winnie from "./Winnie.png";
 
 const Features = () => {
   return (
     <div className="container features py-5" id="skills">
       <div className="row">
-        <div className="col-md-12 col-xl-5 col-lg-5 col-sm-12 py-2">
+        <div className="col-md-12 col-xl-4 col-lg-4 mx-auto col-sm-12 py-2">
           <div className="heading text-center">
             <h4>My Skill Set</h4>
             <h1>What I Do</h1>
             <Image src={winnie} className="img-fluid rounded" />
           </div>
         </div>
-        <div className="col-md-12 col-xl-7 col-lg-7 col-sm-12 col-xs-12 py-2">
+      </div>
+      <div className="row">
+        <div className="col-md-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12 py-2">
           <div className="row justify-content-center">
             {data.map((val, index) => {
               return (
