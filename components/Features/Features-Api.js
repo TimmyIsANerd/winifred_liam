@@ -5,6 +5,7 @@ const data = [
     title: "Ghost Writing",
     desc: "Hire my professional ghostwriter services to assist you in creating interesting material and using your preferred writing style.",
     url: `#portfolio`,
+    color:'card_blue'
   },
   {
     id: 2,
@@ -12,7 +13,6 @@ const data = [
     title: "Upwork Freelancing",
     desc: " The Upwork space is where I find my clients and deliver the most optimal work to them",
     url: `https://www.upwork.com/freelancers/~017347597ba4653991`,
-    color:'card_blue'
   },
   {
     id: 3,
@@ -35,6 +35,7 @@ const data = [
     title: "Blogger",
     desc: "My blog space is where I share my ideas, interests, my thoughts, it's my space to rant, write and share stories hoping it reaches out to someone in need of it..",
     url: "https://medium.com/@winifredliam",
+    color:'card_blue'
   },
   {
     id: 6,
@@ -42,7 +43,6 @@ const data = [
     title: "Virtual Assistant",
     desc: " I provide the best remote help to assist cooperate executives, which includes doing research and data organization, engaging with customers or clients on behalf of their firm,",
     url: `#portfolio`,
-    color:'card_blue'
   },
   {
     id: 7,
@@ -50,7 +50,6 @@ const data = [
     title: "Content Specialist",
     desc: " As a Content specialist I can produce content for you that is balanced in terms of promotional and informational material.",
     url: `#portfolio`,
-    color:'card_blue'
   },
   {
     id: 8,
