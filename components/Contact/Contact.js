@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import contact1 from "./contact1.png";
 import Image from "next/image";
+import axios from "axios";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -10,6 +11,8 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+
+  const [sending, setSending] = useState(false);
 
   const InputEvent = (event) => {
     const { name, value } = event.target;
@@ -24,15 +27,34 @@ const Contact = () => {
 
   const formSubmit = (event) => {
     event.preventDefault();
+    const {fullname, phone, email, subject, message} = data;
+    // sendEmail(fullname, phone, email, subject, message);
     alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
+      `Email Delivery Service Is Down...`
     );
+
   };
+
+
+  const sendEmail = async (fullname,phone,subject,email,message) =>{
+    try{
+      setSending(true);
+      await axios.post('/api/sendemail',{
+        body:{
+          fullname,
+          phone,
+          subject,
+          email,
+          message
+        }
+      });
+
+      setSending(false);
+    } catch(err){
+      console.log(err);
+      setSending(false);
+    }
+  }
   return (
     <>
       <div className="Contact container top" id="contact">
@@ -122,7 +144,7 @@ const Contact = () => {
 
                 <div className="col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-12 my-2">
                   <div className="box_shodow p-2">
-                    <form onSubmit={formSubmit}>
+                    <form onSubmit={formSubmit} method="POST">
                       <div className="col">
                         <div className="input">
                           <span>YOUR NAME</span>
@@ -171,8 +193,8 @@ const Contact = () => {
                           onChange={InputEvent}
                         ></textarea>
                       </div>
-                      <button className="btn_shadow">
-                        SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
+                      <button className="btn_shadow" type="submit">
+                        {sending ? <>SENDING...</> : <>SEND MESSAGE!</>} <i className="fa fa-long-arrow-right"></i>
                       </button>
                     </form>
                   </div>
