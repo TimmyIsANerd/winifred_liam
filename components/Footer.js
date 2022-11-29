@@ -14,7 +14,7 @@ const Footer = () => {
           <div className='img'>
             <img src={logo1} alt='' />
           </div>
-          <p>© {getDate()}. Made with 💖 by <a href="https://adefeyitimi.netlify.app">Adefeyitimi Adeyeloja</a>.</p>
+          <p>© {getDate()}. Made with 💖 by Breative.</p>
         </div>
       </footer>
     </>
